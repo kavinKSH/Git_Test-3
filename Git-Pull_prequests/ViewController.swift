@@ -9,13 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var intro = "Hello World!"
+    var client  = HTTPClient()
+    var intro   = "Hello World!"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello world")
+        HTTPClient.networking()
     }
-
-
 }
 
