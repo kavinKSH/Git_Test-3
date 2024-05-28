@@ -13,6 +13,7 @@
 		22F899E82C05D0700082DEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F899E62C05D0700082DEF5 /* Main.storyboard */; };
 		22F899EA2C05D0710082DEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F899E92C05D0710082DEF5 /* Assets.xcassets */; };
 		22F899ED2C05D0710082DEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F899EB2C05D0710082DEF5 /* LaunchScreen.storyboard */; };
+		22F899F52C05D1230082DEF5 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F899F42C05D1230082DEF5 /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		22F899E92C05D0710082DEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22F899EC2C05D0710082DEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22F899EE2C05D0710082DEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F899F42C05D1230082DEF5 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				22F899E02C05D0700082DEF5 /* AppDelegate.swift */,
 				22F899E22C05D0700082DEF5 /* SceneDelegate.swift */,
 				22F899E42C05D0700082DEF5 /* ViewController.swift */,
+				22F899F42C05D1230082DEF5 /* HTTPClient.swift */,
 				22F899E62C05D0700082DEF5 /* Main.storyboard */,
 				22F899E92C05D0710082DEF5 /* Assets.xcassets */,
 				22F899EB2C05D0710082DEF5 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				22F899E52C05D0700082DEF5 /* ViewController.swift in Sources */,
 				22F899E12C05D0700082DEF5 /* AppDelegate.swift in Sources */,
+				22F899F52C05D1230082DEF5 /* HTTPClient.swift in Sources */,
 				22F899E32C05D0700082DEF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
