@@ -27,5 +27,9 @@ class ViewController: UIViewController {
     func addSomeFutures() {
         print("Check if any updates UIdesigns, then Updates")
     }
+    
+    func receiveUserDetails() {
+        print("Recevie user Details Datas")
+    }
 }
 
