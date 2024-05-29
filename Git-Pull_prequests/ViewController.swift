@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let name: String = ""
     var client  = HTTPClient()
     var intro   = "Hello World!"
     
