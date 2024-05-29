@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("Hello world")
         HTTPClient.networking()
+        print("Get Details From Users")
     }
     
     func fixBugs() {
