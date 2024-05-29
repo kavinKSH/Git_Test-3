@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		224EADA92C07038C00F974BC /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EADA82C07038C00F974BC /* Datas.swift */; };
-		224EADAD2C0715CB00F974BC /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EADAC2C0715CB00F974BC /* HTTPMethods.swift */; };
+		224EADAF2C07170E00F974BC /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EADAE2C07170E00F974BC /* Methods.swift */; };
 		22F899E12C05D0700082DEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F899E02C05D0700082DEF5 /* AppDelegate.swift */; };
 		22F899E32C05D0700082DEF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F899E22C05D0700082DEF5 /* SceneDelegate.swift */; };
 		22F899E52C05D0700082DEF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F899E42C05D0700082DEF5 /* ViewController.swift */; };
@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		224EADA82C07038C00F974BC /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
-		224EADAC2C0715CB00F974BC /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
+		224EADAE2C07170E00F974BC /* Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
 		22F899DD2C05D0700082DEF5 /* Git-Pull_prequests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-Pull_prequests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F899E02C05D0700082DEF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22F899E22C05D0700082DEF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 				22F899E42C05D0700082DEF5 /* ViewController.swift */,
 				224EADA82C07038C00F974BC /* Datas.swift */,
 				22F899F42C05D1230082DEF5 /* HTTPClient.swift */,
-				224EADAC2C0715CB00F974BC /* HTTPMethods.swift */,
+				224EADAE2C07170E00F974BC /* Methods.swift */,
 				22F899F82C05EAD00082DEF5 /* CustomError.swift */,
 				22F899E62C05D0700082DEF5 /* Main.storyboard */,
 				22F899E92C05D0710082DEF5 /* Assets.xcassets */,
@@ -151,12 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F899F92C05EAD00082DEF5 /* CustomError.swift in Sources */,
+				224EADAF2C07170E00F974BC /* Methods.swift in Sources */,
 				224EADA92C07038C00F974BC /* Datas.swift in Sources */,
 				22F899E52C05D0700082DEF5 /* ViewController.swift in Sources */,
 				22F899E12C05D0700082DEF5 /* AppDelegate.swift in Sources */,
 				22F899F52C05D1230082DEF5 /* HTTPClient.swift in Sources */,
 				22F899E32C05D0700082DEF5 /* SceneDelegate.swift in Sources */,
-				224EADAD2C0715CB00F974BC /* HTTPMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
