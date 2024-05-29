@@ -10,13 +10,18 @@ import UIKit
 class ViewController: UIViewController {
 
     let name: String = ""
+    
     var client  = HTTPClient()
-    var intro   = "Hello World!"
+    var intro   = "Hello Users!"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello world")
         HTTPClient.networking()
+    }
+    
+    func fixBugs() {
+        print("Fix bugs")
     }
 }
 
