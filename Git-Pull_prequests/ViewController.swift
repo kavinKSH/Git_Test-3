@@ -32,5 +32,9 @@ class ViewController: UIViewController {
     func receiveUserDetails() {
         print("Recevie user Details Datas")
     }
+    
+    func findUsers() {
+        print("Search Users")
+    }
 }
 
