@@ -23,5 +23,9 @@ class ViewController: UIViewController {
     func fixBugs() {
         print("Fix bugs")
     }
+    
+    func addSomeFutures() {
+        print("Check if any updates UIdesigns, then Updates")
+    }
 }
 
