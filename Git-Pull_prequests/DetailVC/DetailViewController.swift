@@ -17,4 +17,8 @@ class DetailViewController: UIViewController {
     func updateUserProfile() {
         print("Update user profile")
     }
+    
+    func updateUserProfile1() {
+        print("Update user profile")
+    }
 }
