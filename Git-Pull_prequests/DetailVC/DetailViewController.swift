@@ -13,4 +13,8 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         print("Print user details")
     }
+    
+    func updateUserProfile() {
+        print("Update user profile")
+    }
 }
