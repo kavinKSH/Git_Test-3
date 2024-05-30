@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2222409E2C08AEC80029ED26 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2222409C2C08AEC80029ED26 /* DetailViewController.swift */; };
+		2222409F2C08AEC80029ED26 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2222409D2C08AEC80029ED26 /* DetailViewController.xib */; };
 		224EADA92C07038C00F974BC /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EADA82C07038C00F974BC /* Datas.swift */; };
 		224EADAB2C0710B600F974BC /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EADAA2C0710B600F974BC /* HTTPMethod.swift */; };
 		22F899E12C05D0700082DEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F899E02C05D0700082DEF5 /* AppDelegate.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2222409C2C08AEC80029ED26 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2222409D2C08AEC80029ED26 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		224EADA82C07038C00F974BC /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
 		224EADAA2C0710B600F974BC /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		22F899DD2C05D0700082DEF5 /* Git-Pull_prequests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-Pull_prequests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222240A02C08AF030029ED26 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				2222409C2C08AEC80029ED26 /* DetailViewController.swift */,
+				2222409D2C08AEC80029ED26 /* DetailViewController.xib */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
 		22F899D42C05D0700082DEF5 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +80,7 @@
 				22F899E02C05D0700082DEF5 /* AppDelegate.swift */,
 				22F899E22C05D0700082DEF5 /* SceneDelegate.swift */,
 				22F899E42C05D0700082DEF5 /* ViewController.swift */,
+				222240A02C08AF030029ED26 /* DetailVC */,
 				224EADA82C07038C00F974BC /* Datas.swift */,
 				22F899F42C05D1230082DEF5 /* HTTPClient.swift */,
 				22F899F82C05EAD00082DEF5 /* CustomError.swift */,
@@ -140,6 +154,7 @@
 				22F899ED2C05D0710082DEF5 /* LaunchScreen.storyboard in Resources */,
 				22F899EA2C05D0710082DEF5 /* Assets.xcassets in Resources */,
 				22F899E82C05D0700082DEF5 /* Main.storyboard in Resources */,
+				2222409F2C08AEC80029ED26 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +172,7 @@
 				22F899E12C05D0700082DEF5 /* AppDelegate.swift in Sources */,
 				22F899F52C05D1230082DEF5 /* HTTPClient.swift in Sources */,
 				22F899E32C05D0700082DEF5 /* SceneDelegate.swift in Sources */,
+				2222409E2C08AEC80029ED26 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
